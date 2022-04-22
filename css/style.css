@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+body {
+
+    background-image: url("../img/sky.gif");
+    background-size: cover;
+    margin: 0 0;
+    font-family: "Poppins", "Futura", sans-serif;
+    color: lightblue;
+  }
+
+  h1, h2, form{
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 50px;
+    color:rgb(243, 199, 255)
+  }
+
+  label {
+    font-weight: bold;
+    font-size: 18px;
+    color:rgb(178, 228, 255)
+  }
+  button{
+    display: block;
+    margin: 20px auto;
+    font-family: "Poppins", "Futura", sans-serif;
+    background-color: rgb(239, 206, 255);
+    color:rgb(45, 0, 209);
+    font-weight: bold;
+    border-radius: 15px 15px;
+    height:50px;
+    width: 70px;
+
+  }
+  ul{
+    width: 100px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+  }
+  li{
+    text-align: center;
+    width: 94px;
+    height: 49px;
+    border: 1px solid black;
+  }
+  h2{
+    font-size: 100px;
+    color: rgb(173, 209, 255);
+    font-weight: bold;
+    margin: 0;
+  }
+
+  form label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .info {
+    font-size: 25px;
+    color:rgb(8, 4, 123);
+    text-align: center;
+    margin-top: -30px;
+  }
+
+  input {
+    font-family: "Poppins", "Futura", sans-serif;
+  }
+
+  h3 {
+    font-size: 30px;
+    color: darkblue;
+    text-align: center;
+  }
+
+  .signResults {
+    max-width: 7%;
+    margin: auto;
+    display: block;
+
+  }
+  
